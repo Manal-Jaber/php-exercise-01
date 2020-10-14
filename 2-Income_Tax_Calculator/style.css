@@ -1,0 +1,64 @@
+body{
+    background-color: lightgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+h1{
+    margin: 0 auto;
+    margin-bottom: 5%;
+    color: darkgreen;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border-color: green;
+    border-style: groove;
+    background-color: lightyellow;
+    border-radius: 2%;
+    margin: 8%;
+    padding: 8%
+}
+table{
+    background-color: lightgreen;
+    color: darkgreen;
+    border: solid;
+    border-color: green;
+    width: 100%;
+    height: 80%;
+}
+::placeholder{
+    color: lightslategray;
+}
+input{
+    background-color: lightgreen;
+    border-color: green;
+    border-style: dotted;
+    color: darkgreen;
+}
+.input{
+    margin: 2%;
+}
+label{
+    color: darkgreen;  
+}
+button{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgreen;
+    border-style: groove;
+    border-color: lightgreen;
+    border-radius: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: darkgreen;
+}
+.error{
+    color: red;
+    font-size: xx-small;
+    margin: 0 auto;
+    padding: 0;
+}

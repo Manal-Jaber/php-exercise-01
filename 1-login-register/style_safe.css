@@ -1,0 +1,32 @@
+
+.wrapper{
+    display: none !important;
+}
+.safe_wrapper{
+    color: blue;
+    margin: 0 auto;
+}
+.table_section{
+    margin: 10%;
+}
+h1{
+    color: royalblue;
+}
+table{
+    border: dotted;
+    border-radius: 2%;
+    border-color: blue;
+    color: royalblue;
+    background-color: white;
+}
+
+table th{
+    width: 10%;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: blue;
+    border-width: thin;
+}
+table td{
+    width: 10%;
+}

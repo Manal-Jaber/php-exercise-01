@@ -1,0 +1,79 @@
+body{
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    margin: 0 auto;
+    margin-bottom: 5%;
+    color: royalblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border-color: slateblue;
+    border-style: groove;
+    border-radius: 2%;
+    margin: 10%;
+    padding: 10%
+}
+::placeholder{
+    color: lightslategray;
+}
+input{
+    background-color: paleturquoise;
+    border-color: steelblue;
+    border-style: dotted;
+    color: royalblue;
+}
+.input{
+    margin: 2%;
+}
+label{
+    color: royalblue;  
+}
+button{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: paleturquoise;
+    border-style: groove;
+    border-color: steelblue;
+    border-radius: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: royalblue;
+}
+.error{
+    color: red;
+    font-size: xx-small;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    input{
+        float: right;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: fit-content;
+    }
+    form{
+        margin: 1%;
+        padding: 1%
+    }
+    input{
+        width: auto;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+}
